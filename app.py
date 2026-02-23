@@ -4,7 +4,7 @@ from src.utils import SAMPLE_TEXTS, word_count, char_count
 
 # ── Page config ──────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="AI Text Summarizer",
+    page_title="ScholarLens",
     page_icon="📝",
     layout="wide",
 )
@@ -273,7 +273,7 @@ st.markdown(
 st.markdown(
     f"""
     <div class="main-header">
-        <h1>📝 AI Text Summarizer</h1>
+        <h1>📝 ScholarLens</h1>
         <p>Extractive summarization powered by TF-IDF &amp; K-Means clustering</p>
     </div>
     """,
